@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu_link" href="index.html">Home</a>
+            <a class="cabecalho__menu_link" href="about.html">Sobre mim</a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -20,14 +23,21 @@
                 Ajudo pequenos negócios e designers a colocarem em prática boas ideias. 
                 Vamos conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links_link" href="https://www.linkedin.com/in/josé-pereira-junior/">Linkedin</a>
-                <a class="apresentacao__links_link" href="https://github.com/Juniorzeh">GitHub</a>
+                <h2 class="apresentacao_links_subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links_link" href="https://www.linkedin.com/in/josé-pereira-junior/">
+                    <img src="assets/linkedin.png">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links_link" href="https://github.com/Juniorzeh">
+                    <img src="assets/github.png">
+                    GitHub
+                </a>
             </div>
         </section>
-        <img src="fotoPerfil.png" alt="foto de perfil">
+        <img src="assets/fotoPerfil.png" alt="foto de perfil">
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <p>Desenvolvido por Junior.</p>
     </footer>
 </body>
 </html>
