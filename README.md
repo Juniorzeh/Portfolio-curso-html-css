@@ -1,3 +1,3 @@
 ## 📸 Preview
 
-![Preview da página](assets/preview.png)
+![Preview da página](assets/index.png)
