@@ -22,7 +22,7 @@ body{
 }
 
 .cabecalho {
-    padding: 0.125rem 0% 0% 1rem;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu {
@@ -39,7 +39,7 @@ body{
 }
 
 .apresentacao{
-    padding: 0.32rem 1rem 6.19rem;
+    padding: 5% 15% 9.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,7 +89,7 @@ body{
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
-    padding: 13.44rem 0;
+    padding: 21.5px 0;
     text-decoration: none;
     font-weight: 600;
     color: var(--cor-secundaria);
@@ -103,7 +103,7 @@ body{
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding: 1.125rem;
+    padding: 18px;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.125rem;
